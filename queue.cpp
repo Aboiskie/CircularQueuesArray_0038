@@ -123,3 +123,23 @@ public:
     }
 };
 
+int main()
+{
+    Queues q;
+    char ch;
+
+    while (true)
+    {
+        try
+        {
+            cout << "Menu" << endl;
+            cout << "1. Implement Insert operasi queue" << endl;
+            cout << "2. Implement Delete operasi queue" << endl;
+            cout << "3. Display values at queue" << endl;
+            cout << "4. Exit" << endl;
+
+            cout << "\nEnter your choice(1-4): ";
+            cin >> ch;
+            cout << endl;
+
+            
